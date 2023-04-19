@@ -1,0 +1,31 @@
+# Python-related files and directories
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+venv/
+*.egg-info/
+dist/
+build/
+
+# IDE-related files and directories
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Other build and cache files
+*.pyc
+*.class
+*.o
+*.so
+*.dll
+*.exe
+*.bak
+*.swp
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
