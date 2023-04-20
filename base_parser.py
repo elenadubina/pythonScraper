@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 
 
-class BaseScraper:
+class BaseParser:
     def _previous_date(self, str_days_ago):
         if 'more than' in str_days_ago.lower():
             return ''
